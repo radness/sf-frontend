@@ -1,16 +1,11 @@
-import PropsSample from "./PropsSample";
-import {StateComponent1} from "./StateComponent";
-import {StateComponent2} from "./StateComponent2";
-import PropsAndState from "./PropsAndState";
+import {Layout} from "./layouts/Layout";
+import {Example1} from "./pages/Example1";
 
 function App() {
     return (
-        <>
-            {/*<PropsSample name={"radness"}></PropsSample>*/}
-            {/*<StateComponent1></StateComponent1>*/}
-            {/*<StateComponent2></StateComponent2>*/}
-            <PropsAndState></PropsAndState>
-        </>
+        <Layout>
+            <Example1></Example1>
+        </Layout>
     );
 }
 
