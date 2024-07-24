@@ -25,7 +25,6 @@ function App() {
                     }
                 />
             </Routes>
-            <Example1></Example1>
         </Layout>
     );
 }
