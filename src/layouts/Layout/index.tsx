@@ -1,8 +1,8 @@
 import styled from "@emotion/styled";
 import {ReactNode} from "react";
-import {Header} from "../../component/Header";
-import {Sidebar} from "../../component/Sidebar";
-import {Footer} from "../../component/Footer";
+import {Header} from "../../components/Header";
+import {Sidebar} from "../../components/Sidebar";
+import {Footer} from "../../components/Footer";
 
 const Container = styled.header`
     display: flex;

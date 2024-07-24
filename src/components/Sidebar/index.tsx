@@ -54,6 +54,9 @@ export const Sidebar = () => {
                 <MenuItem>
                     <MenuLink to='/example2'>Contact</MenuLink>
                 </MenuItem>
+                <MenuItem>
+                    <MenuLink to='/blog-posts'>BlogPost</MenuLink>
+                </MenuItem>
             </Menu>
             <Info>
                 <InfoTitle>Follow Us</InfoTitle>

@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import {Button} from "./component/Button";
-import {Label} from "./component/Label";
+import {Button} from "./components/Button";
+import {Label} from "./components/Label";
 import axios from "axios";
 
 const PropsAndState = () => {
