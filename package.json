@@ -31,12 +31,15 @@
     "format": "prettier --check ./src",
     "format:fix": "prettier --write ./src",
     "lint": "eslint ./src",
-    "lint:fix": "eslint --fix ./src"
+    "lint:fix": "eslint --fix ./src",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "plugin:storybook/recommended"
     ]
   },
   "browserslist": {
@@ -52,15 +55,29 @@
     ]
   },
   "devDependencies": {
+    "@chromatic-com/storybook": "^1.6.1",
     "@emotion/styled": "^11.13.0",
     "@eslint/js": "^9.7.0",
+    "@storybook/addon-essentials": "^8.2.6",
+    "@storybook/addon-interactions": "^8.2.6",
+    "@storybook/addon-links": "^8.2.6",
+    "@storybook/addon-onboarding": "^8.2.6",
+    "@storybook/blocks": "^8.2.6",
+    "@storybook/preset-create-react-app": "^8.2.6",
+    "@storybook/react": "^8.2.6",
+    "@storybook/react-webpack5": "^8.2.6",
+    "@storybook/test": "^8.2.6",
     "@typescript-eslint/eslint-plugin": "6.15.0",
     "eslint": "8.x",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-jest": "^28.6.0",
     "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-storybook": "^0.8.0",
     "globals": "^15.8.0",
     "prettier": "^3.3.3",
-    "typescript-eslint": "^7.16.1"
+    "prop-types": "^15.8.1",
+    "storybook": "^8.2.6",
+    "typescript-eslint": "^7.16.1",
+    "webpack": "^5.93.0"
   }
 }
