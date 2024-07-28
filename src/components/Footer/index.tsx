@@ -9,7 +9,7 @@ const FooterContainer = styled.header`
 const FooterText = styled.nav`
     color: black;
     font-size: 16px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 `;
 
 const SocialMediaLink = styled.a`
@@ -17,7 +17,7 @@ const SocialMediaLink = styled.a`
     text-decoration: none;
     font-size: 16px;
     margin-left: 10px;
-    
+
     &:hover {
         text-decoration: underline;
     }
@@ -25,13 +25,13 @@ const SocialMediaLink = styled.a`
 
 export const Footer = () => {
     return (
-      <FooterContainer>
-          <FooterText>2024 Radness sf.</FooterText>
-          {/*<div>*/}
-          {/*    <SocialMediaLink href="#">Facebook</SocialMediaLink>*/}
-          {/*    <SocialMediaLink href="#">Instagram</SocialMediaLink>*/}
-          {/*    <SocialMediaLink href="#">X</SocialMediaLink>*/}
-          {/*</div>*/}
-      </FooterContainer>
+        <FooterContainer>
+            <FooterText>2024 Radness sf.</FooterText>
+            {/*<div>*/}
+            {/*    <SocialMediaLink href="#">Facebook</SocialMediaLink>*/}
+            {/*    <SocialMediaLink href="#">Instagram</SocialMediaLink>*/}
+            {/*    <SocialMediaLink href="#">X</SocialMediaLink>*/}
+            {/*</div>*/}
+        </FooterContainer>
     );
 };

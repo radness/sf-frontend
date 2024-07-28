@@ -11,15 +11,15 @@ const Logo = styled.img`
 `;
 
 const Nav = styled.nav`
-    margin-top: 10px;     
+    margin-top: 0px;
 `;
 
 const NavLink = styled.a`
     color: aliceblue;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 16px;
-    
+
     &:hover {
         Text-decoration: underline;
     }
@@ -28,7 +28,7 @@ const NavLink = styled.a`
 export const Header = () => {
     return (
         <Container>
-            <Logo src='https://via.placeholder.com/150' alt='logo'></Logo>
+            {/*<Logo src='https://via.placeholder.com/150' alt='logo'></Logo>*/}
             <Nav>
                 <NavLink href="#">Home</NavLink>
                 <NavLink href="#">About</NavLink>
