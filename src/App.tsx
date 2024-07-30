@@ -6,6 +6,7 @@ import {NotFound} from "./pages/NotFound";
 import {Home} from "./pages/Home";
 import {About} from "./pages/About";
 import {BlogPosts} from "./pages/BlogPosts";
+import {SearchResultsList} from "./pages/SearchResultsList";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                 <Route path="/example1" element={<Example1/>}/>
                 <Route path="/example2" element={<Example2/>}/>
                 <Route path="/blog-posts" element={<BlogPosts/>}/>
+                <Route path="/search-results-list" element={<SearchResultsList/>}/>
                 <Route
                     path={'*'}
                     element={

@@ -57,6 +57,9 @@ export const Sidebar = () => {
                 <MenuItem>
                     <MenuLink to='/blog-posts'>BlogPost</MenuLink>
                 </MenuItem>
+                <MenuItem>
+                    <MenuLink to='/search-results-list'>Search Results List</MenuLink>
+                </MenuItem>
             </Menu>
             <Info>
                 <InfoTitle>Follow Us</InfoTitle>
