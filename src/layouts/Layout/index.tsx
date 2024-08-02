@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import {ReactNode} from "react";
-import {Header} from "../../components/Header";
+// import {Header} from "../../components/Header";
 import {Sidebar} from "../../components/Sidebar";
 import {Footer} from "../../components/Footer";
 
@@ -27,7 +27,7 @@ interface Props {
 export const Layout = (props: Props) => {
     return (
         <Container>
-            <Header/>
+            {/*<Header/>*/}
             <Content>
                 <Sidebar/>
                 <Main>{props.children}</Main>

@@ -1,39 +1,26 @@
-import {FaSearch} from 'react-icons/fa';
-import './SearchBar.css';
-import {useState} from "react";
+import React from 'react';
+import './searchbar.css';
 
-export const Searchbar = ({setResults} : {setResults:any}) => {
-    const [input, setInput] = useState('');
-
-    const fetchData = (value: any) => {
-        fetch('https://jsonplaceholder.typicode.com/users')
-            .then((response) => response.json())
-            .then(json => {
-                // console.log(json);
-                const results = json.filter((user: any) => {
-                   return (value &&
-                       user &&
-                       user.name &&
-                       user.name.toLowerCase().includes(value)
-                   );
-                });
-                // console.log(results);
-                setResults(results);
-            });
-    }
-
-    const handleChange = (value: any) => {
-        setInput(value);
-        fetchData(value);
-    }
-
+const SearchBar = () => {
     return (
-        <div className='input-wrapper'>
-            <FaSearch id='search-icon' className='search-bar' />
-            <input placeholder='Type to search...'
-                   value={input}
-                   onChange={(e) => handleChange(e.target.value)}
-            />
+        <div className='search-bar'>
+            <form
+                className='search-form d-flex align-items-center'
+                method='POST'
+                action='#'
+            >
+                <input
+                    type='text'
+                    name='query'
+                    placeholder='Search ...'
+                    title='Enter search keyword'
+                />
+                <button type='submit' title='Search'>
+                    <i className='bi bi-search'></i>
+                </button>
+            </form>
         </div>
     );
 };
+
+export default SearchBar;
