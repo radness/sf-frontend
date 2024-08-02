@@ -10,8 +10,8 @@
 /* Searchbar */
 /* Toggle Sidebar Button */
 .header .toggle-sidebar-btn {
-    font-size: 32px;
-    padding-left: 10px;
+    font-size: 26px;
+    padding-left: 0;
     cursor: pointer;
     color: #1ea7fd;
 }
