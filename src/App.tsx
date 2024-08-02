@@ -7,11 +7,13 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 
 import './App.css';
 import {Header} from "./components/Header";
+import Sidebar from "./components/Sidebar";
 
 function App() {
     return (
         <>
-            <Header />
+            <Header/>
+            <Sidebar/>
         </>
     );
 }
