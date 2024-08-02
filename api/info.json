@@ -1,0 +1,130 @@
+{
+  "cards": [
+    {
+      "_id": 1,
+      "name": "Sales",
+      "icon": "bi bi-cart",
+      "amount": 145,
+      "percentage": 0.12,
+      "active": true
+    },
+    {
+      "_id": 2,
+      "name": "Revenue",
+      "icon": "bi bi-currency-dollar",
+      "amount": 3246,
+      "percentage": 0.08,
+      "active": false
+    },
+    {
+      "_id": 3,
+      "name": "Customers",
+      "icon": "bi bi-people",
+      "amount": 1244,
+      "percentage": -0.11,
+      "active": false
+    }
+  ],
+  "news": [
+    {
+      "_id": 1,
+      "img": "../assets/items/news-1.jpg",
+      "title": "Sample1 Title",
+      "subtitle": "123",
+      "category": "abc"
+    },
+    {
+      "_id": 2,
+      "img": "../assets/items/news-2.jpg",
+      "title": "Sample2 Title",
+      "subtitle": "456",
+      "category": "abc"
+    },
+    {
+      "_id": 3,
+      "img": "../assets/items/news-3.jpg",
+      "title": "Sample3 Title",
+      "subtitle": "789",
+      "category": "abc"
+    }
+  ],
+  "topselling": [
+    {
+      "_id": 1,
+      "preview": "../assets/items/product-1.jpg",
+      "name": "Ut inventore ipsa vopuptas nulla",
+      "price": 64,
+      "sold": 123
+    },
+    {
+      "_id": 2,
+      "preview": "../assets/items/product-2.jpg",
+      "name": "Ut inventore ipsa vopuptas nulla",
+      "price": 64,
+      "sold": 123
+    },
+    {
+      "_id": 3,
+      "preview": "../assets/items/product-3.jpg",
+      "name": "Ut inventore ipsa vopuptas nulla",
+      "price": 64,
+      "sold": 123
+    },
+    {
+      "_id": 4,
+      "preview": "../assets/items/product-4.jpg",
+      "name": "Ut inventore ipsa vopuptas nulla",
+      "price": 64,
+      "sold": 123
+    }
+  ],
+  "recentsales": [
+    {
+      "_id": 1,
+      "number": "#159",
+      "customer": "Brandon Jacob",
+      "product": "At praesentium minu",
+      "price": 64,
+      "status":"Approved"
+    },
+    {
+      "_id": 2,
+      "number": "#159",
+      "customer": "Brandon Jacob",
+      "product": "At praesentium minu",
+      "price": 64,
+      "status":"Approved"
+    },
+    {
+      "_id": 3,
+      "number": "#159",
+      "customer": "Brandon Jacob",
+      "product": "At praesentium minu",
+      "price": 64,
+      "status":"Approved"
+    }
+  ],
+  "recentactivity": [
+    {
+      "_id": 1,
+      "time": "2 days",
+      "color": "text-info",
+      "content": "Est sit eum reiciendis exercitationem",
+      "highlight": ""
+    },
+    {
+      "_id": 2,
+      "time": "4 days",
+      "color": "text-warning",
+      "content": "Est sit eum reiciendis exercitationem",
+      "highlight": ""
+    },
+    {
+      "_id": 3,
+      "time": "1 day",
+      "color": "text-muted",
+      "content": "Est sit eum reiciendis exercitationem",
+      "highlight": ""
+    }
+  ]
+}
