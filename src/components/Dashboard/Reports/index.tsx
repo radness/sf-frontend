@@ -13,7 +13,7 @@ const Reports = () => {
             <CardFilter filterChange={handleFilterChange} />
             <div className="card-body">
                 <h5 className="card-title">
-                    Reports <span>/{filter}</span>
+                    Reports <span>| {filter}</span>
                 </h5>
                 <ReportCharts/>
             </div>
