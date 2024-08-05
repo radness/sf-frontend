@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import Card from "./Card";
 
 const Dashboard = () => {
-    const [cards, setCards] = useState([]);
+    const [cards, setCards] = useState<any[]>([]);
 
     const fecthData = () => {
         fetch('http://localhost:4000/cards')
@@ -24,7 +24,7 @@ const Dashboard = () => {
                             {
                                 cards && cards.length > 0 &&
                                 cards.map((card) => (
-                                    <Card key={card._id} card={card} />
+                                    <Card key={card.id} card={card} />
                                 ))
                             }
                         </div>
