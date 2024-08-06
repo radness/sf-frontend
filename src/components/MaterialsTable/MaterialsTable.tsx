@@ -49,8 +49,8 @@ const MaterialsTable = ({items}: MaterialsTableProp) => {
                 <th scope="col">unit</th>
                 <th scope="col">vendorId</th>
                 <th scope="col">customerId</th>
-                <th scope="col">createUserId</th>
-                <th scope="col">createDateTime</th>
+                {/*<th scope="col">createUserId</th>*/}
+                {/*<th scope="col">createDateTime</th>*/}
                 {/*<th scope="col">updateUserId</th>*/}
                 {/*<th scope="col">updateDateTime</th>*/}
             </tr>
@@ -69,12 +69,12 @@ const MaterialsTable = ({items}: MaterialsTableProp) => {
                            {item.materialType}
                        </span>
                     </td>
-                    <td>${item.qty}</td>
-                    <td>${item.unit}</td>
+                    <td>{item.qty}</td>
+                    <td>{item.unit}</td>
                     <td>{item.vendorId}</td>
                     <td>{item.customerId}</td>
-                    <td>{item.createUserId}</td>
-                    <td>{item.createDateTime}</td>
+                    {/*<td>{item.createUserId}</td>*/}
+                    {/*<td>{item.createDateTime}</td>*/}
                     {/*<td>{item.updateUserId}</td>*/}
                     {/*<td>{item.updateDateTime}</td>*/}
 
