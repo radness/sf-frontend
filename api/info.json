@@ -107,23 +107,37 @@
   "recentactivity": [
     {
       "_id": 1,
-      "time": "2 days",
-      "color": "text-info",
-      "content": "Est sit eum reiciendis exercitationem",
-      "highlight": ""
+      "time": "32 min",
+      "color": "text-success",
+      "content": "Quia quae rerum explicabo officiis beatae",
+      "highlight": "explicabo officiis"
     },
     {
       "_id": 2,
-      "time": "4 days",
-      "color": "text-warning",
-      "content": "Est sit eum reiciendis exercitationem",
+      "time": "56 min",
+      "color": "text-danger",
+      "content": "Voliptatem blanditiis blanditiis eveniet",
       "highlight": ""
     },
     {
       "_id": 3,
       "time": "1 day",
-      "color": "text-muted",
+      "color": "text-info",
+      "content": "Tempore autem saepe occaecait viluptatem",
+      "highlight": "occaecati voluptatem"
+    },
+    {
+      "_id": 4,
+      "time": "2 days",
+      "color": "text-warning",
       "content": "Est sit eum reiciendis exercitationem",
+      "highlight": ""
+    },
+    {
+      "_id": 5,
+      "time": "4 weeks",
+      "color": "text-muted",
+      "content": "Dicta dolorem harum nulla eius.",
       "highlight": ""
     }
   ]
