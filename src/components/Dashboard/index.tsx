@@ -2,8 +2,8 @@ import React, {useState, useEffect} from 'react';
 import './dashboard.css';
 import Card from "./Card";
 import Reports from "./Reports";
-import RecentSalesTable from "./RecentSalesTable/index2";
 import RecentSales from "./RecentSales";
+import Materials from "../Materials/Materials";
 
 const Dashboard = () => {
     const [cards, setCards] = useState<any[]>([]);
@@ -32,10 +32,13 @@ const Dashboard = () => {
                                 ))
                             }
                             <div className='col-12'>
+                                <Materials/>
+                            </div>
+                            <div className='col-12'>
                                 <Reports/>
                             </div>
                             <div className='col-12'>
-                                <RecentSales />
+                                <RecentSales/>
                             </div>
                         </div>
                     </div>
