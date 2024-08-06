@@ -10,6 +10,7 @@ import {Header} from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
+import ScrollTop from "./components/ScrollTop";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
             <Sidebar />
             <Main />
             <Footer/>
+            <ScrollTop/>
         </>
     );
 }
