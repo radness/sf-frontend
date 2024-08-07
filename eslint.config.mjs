@@ -6,7 +6,8 @@ import pluginReact from "eslint-plugin-react";
 
 export default [
   {rules: {
-      "react/prop-types": "off"
+      "react/prop-types": "off",
+      "react/react-in-jsx-scope": "off",
     },
   },
   {files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"]},

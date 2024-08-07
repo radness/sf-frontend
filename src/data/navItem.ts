@@ -1,36 +1,36 @@
 const navList : any = [
     {
-        id: 1,
+        _id: 1,
         name: 'Profile',
         icon: 'bi bi-person',
     },
     {
-        id: 2,
+        _id: 2,
         name: 'Contact',
         icon: 'bi bi-envelope',
     },
     {
-        id: 3,
+        _id: 3,
         name: 'Register',
         icon: 'bi bi-card-list',
     },
     {
-        id: 4,
+        _id: 4,
         name: 'Lonin',
         icon: 'bi bi-box-arrow-in-right',
     },
     {
-        id: 5,
+        _id: 5,
         name: 'Setting',
         icon: 'bi bi-gear',
     },
     {
-        id: 6,
+        _id: 6,
         name: 'F.A.Q',
         icon: 'bi bi-question-circle',
     },
     {
-        id: 7,
+        _id: 7,
         name: 'Blank',
         icon: 'bi bi-file-earmark',
     },
