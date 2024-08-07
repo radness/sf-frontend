@@ -5,6 +5,7 @@ import Reports from "./Reports";
 import RecentSales from "./RecentSales";
 import Materials from "../Materials/Materials";
 import RecentActivity from "../RecentActivity";
+import BudgetReport from "../BudgetReport";
 
 const Dashboard = () => {
     const [cards, setCards] = useState<any[]>([]);
@@ -45,6 +46,7 @@ const Dashboard = () => {
                     </div>
                     <div className='col-lg-4'>
                         <RecentActivity/>
+                        <BudgetReport/>
                     </div>
                 </div>
             </section>
