@@ -28,23 +28,23 @@
   "news": [
     {
       "_id": 1,
-      "img": "../assets/items/news-1.jpg",
-      "title": "Sample1 Title",
-      "subtitle": "123",
+      "img": "https://media.cnn.com/api/v1/images/stellar/prod/f8c8034f-1164-44d7-b717-1b276a051fa2.jpg?c=original&q=w_1280,c_fill",
+      "title": "Walz said in 2005 he was ready to serve his nation in \"DC or Iraq\"",
+      "subtitle": "Tim Walz speaks at a campaign rally on August 7.",
       "category": "abc"
     },
     {
       "_id": 2,
-      "img": "../assets/items/news-2.jpg",
-      "title": "Sample2 Title",
-      "subtitle": "456",
+      "img": "https://media.cnn.com/api/v1/images/stellar/prod/35a9b3db-06ca-4774-8e73-18a267a5c62c.jpg?c=original&q=w_1280,c_fill",
+      "title": "Harris briefly interrupted by protesters during Michigan rally",
+      "subtitle": " Kamala Harris during a campaign event in Detroit, Michigan, US, on August 7. ",
       "category": "abc"
     },
     {
       "_id": 3,
-      "img": "../assets/items/news-3.jpg",
-      "title": "Sample3 Title",
-      "subtitle": "789",
+      "img": "https://media.cnn.com/api/v1/images/stellar/prod/eecbda64-3f2e-4e35-b6bc-9b333b5edfe5.jpg?c=original&q=w_1280,c_fill",
+      "title": "Analysis: Harris capitalizes on the trappings of office and the power of imagery",
+      "subtitle": "Vice President Kamala Harris and running mate Gov. Tim Walz deplane ahead of a rally at the Detroit Metropolitan Wayne County Airport on August 7.",
       "category": "abc"
     }
   ],

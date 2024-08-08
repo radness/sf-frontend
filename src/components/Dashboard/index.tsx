@@ -7,6 +7,7 @@ import Materials from "../Materials/Materials";
 import RecentActivity from "../RecentActivity";
 import BudgetReport from "../BudgetReport";
 import WebTraffic from "../WebTraffic";
+import News from "../News";
 
 const Dashboard = () => {
     const [cards, setCards] = useState<any[]>([]);
@@ -49,6 +50,7 @@ const Dashboard = () => {
                         <RecentActivity/>
                         <BudgetReport/>
                         <WebTraffic/>
+                        <News/>
                     </div>
                 </div>
             </section>
